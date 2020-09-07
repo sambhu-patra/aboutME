@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Layout CSS */
+/*body {
+    background-image: linear-gradient(to right top, #51480b, #5c540c, #685f0d, #746c0d, #7f780e, #808214, #808d1b, #7f9723, #72a134, #62aa47, #4db35b, #2dbb71);
+    background-repeat: no-repeat;
+}*/
+.container {
+    border: 1px solid #949599;
+    background-color: #2F5249;
+    padding: 20px;
+    display: grid;
+    color: wheat;
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+/* Navigation Bar */
+
+.navigation {
+    display: inline-flex;
+    place-content: space-between;
+    margin: 5px;
+    border: 5px;
+    padding: 10px;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo2 {
+    gap: 5px;
+    align-items: center;
+}
+
+.logo2 a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: wheat;
+}
+
+/* footer */
+
+footer small {
+    font-size: 0.7rem;
+}
+
+/* Icon */
+
+.fa-briefcase{
+    font-size: 2rem;
+    color: wheat;
+}
+
+.fa-facebook-f {
+    font-size: 2rem;
+    color: wheat;
+}
+
+.fa-github-square {
+    font-size: 2rem;
+    color: wheat;
+}
